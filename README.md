@@ -1,4 +1,11 @@
-# My First Repository
+# Mini projekt HTML + CSS
 
-To jest moje pierwsze repozytorium na GitHubie.
-Uczę się podstaw IT, HTML i CSS.
+Prosty projekt wykonany w ramach nauki podstaw frontendu.
+
+## Technologie
+- HTML
+- CSS (Flexbox)
+
+## Cel
+Ćwiczenie struktury HTML, box modelu, Flexboxa oraz pracy z Git i GitHub.
+
