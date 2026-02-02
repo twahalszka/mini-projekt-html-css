@@ -1,10 +1,11 @@
-const button = document.getElementById('changeTextBtn');
+const changeButton = document.getElementById('changeTextBtn');
+const resetButton = document.getElementById('resetTextBtn');
 const text = document.getElementById('text');
 
-button.addEventListener('click', function () {
+changeButton.addEventListener('click', function () {
   text.textContent = 'Denkujeee';
 });
 
-button.addEventListener('click', function () {
+resetButton.addEventListener('click', function () {
   text.textContent = 'Bardzo hihi';
 });
