@@ -31,3 +31,17 @@ section {
 .hidden {
   display: none;
 }
+
+#box {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  background-color: lightblue;
+}

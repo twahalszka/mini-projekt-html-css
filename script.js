@@ -29,3 +29,10 @@ const secretText = document.getElementById('secretText');
 toggleBtn.addEventListener('click', function () {
   secretText.classList.toggle('hidden');
 });
+
+const colorBtn = document.getElementById('colorBtn');
+const box = document.getElementById('box');
+
+colorBtn.addEventListener('click', function () {
+  box.classList.toggle('blue');
+});
