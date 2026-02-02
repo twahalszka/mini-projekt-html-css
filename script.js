@@ -33,6 +33,27 @@ toggleBtn.addEventListener('click', function () {
 const colorBtn = document.getElementById('colorBtn');
 const box = document.getElementById('box');
 
+console.log(colorBtn);
+console.log(box);
+
 colorBtn.addEventListener('click', function () {
+  console.log('KLIK DZIAŁA');
   box.classList.toggle('blue');
+});
+
+const questions = document.querySelectorAll('.faq-question');
+const answers = document.querySelectorAll('.faq-answer');
+
+questions.forEach(function (question) {
+  question.addEventListener('click', function () {
+    const currentAnswer = question.nextElementSibling;
+
+    // 1️⃣ zamknij wszystkie odpowiedzi
+    answers.forEach(function (answer) {
+      answer.classList.add('hidden');
+    });
+
+    // 2️⃣ otwórz tylko klikniętą
+    currentAnswer.classList.toggle('hidden');
+  });
 });
