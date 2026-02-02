@@ -9,3 +9,15 @@ changeButton.addEventListener('click', function () {
 resetButton.addEventListener('click', function () {
   text.textContent = 'Bardzo hihi';
 });
+
+const showButton = document.getElementById('showMessageBtn');
+const hideButton = document.getElementById('hideMessageBtn');
+const message = document.getElementById('message');
+
+showButton.addEventListener('click', function () {
+  message.textContent = 'Wiadomość została pokazana!';
+});
+
+hideButton.addEventListener('click', function () {
+  message.textContent = '';
+});
