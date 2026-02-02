@@ -1,13 +1,13 @@
-const changeButton = document.getElementById('changeTextBtn');
-const resetButton = document.getElementById('resetTextBtn');
+const changeButton = document.getElementById('ZmienPrzycisk');
+const resetButton = document.getElementById('ZresetujPrzycisk');
 const text = document.getElementById('text');
 
 changeButton.addEventListener('click', function () {
-  text.textContent = 'Denkujeee';
+  text.textContent = 'Change of text';
 });
 
 resetButton.addEventListener('click', function () {
-  text.textContent = 'Bardzo hihi';
+  text.textContent = 'Reset change';
 });
 
 const showButton = document.getElementById('showMessageBtn');
@@ -15,7 +15,7 @@ const hideButton = document.getElementById('hideMessageBtn');
 const message = document.getElementById('message');
 
 showButton.addEventListener('click', function () {
-  message.textContent = 'Wiadomość została pokazana!';
+  message.textContent = 'No more secrets';
 });
 
 hideButton.addEventListener('click', function () {
