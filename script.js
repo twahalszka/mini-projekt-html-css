@@ -21,3 +21,15 @@ showButton.addEventListener('click', function () {
 hideButton.addEventListener('click', function () {
   message.textContent = '';
 });
+
+const showBtn = document.getElementById('showBtn');
+const hideBtn = document.getElementById('hideBtn');
+const secretText = document.getElementById('secretText');
+
+hideBtn.addEventListener('click', function () {
+  secretText.classList.add('hidden');
+});
+
+showBtn.addEventListener('click', function () {
+  secretText.classList.remove('hidden');
+});

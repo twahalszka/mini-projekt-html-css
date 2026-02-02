@@ -27,3 +27,7 @@ section {
 .sidebar {
   flex: 1;
 }
+
+.hidden {
+  display: none;
+}
